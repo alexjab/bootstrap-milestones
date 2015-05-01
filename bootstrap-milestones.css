@@ -1,12 +1,13 @@
-.milestone {
+.milestones {
   list-style-type: none;
+  padding-left: 14.5px;
 }
 .milestone-icon {
-  margin-left: -14px;
+  margin-left: -13.5px;
   margin-top: 10px;
   float: left;
   position: relative;
-  border-radius: 16px;
+  border-radius: 14.5px;
   padding: 7.5px;
   font-size: 12px;
 }
@@ -17,30 +18,29 @@
   border-top: 1px dotted lightgrey;
   padding-bottom: 15px;
 }
-.milestone-content > .list-group:last-child,
-.panel:last-child,
-.well:last-child {
+.milestone-content .list-group:last-child,
+.milestone-content .panel:last-child,
+.milestone-content .well:last-child {
   margin-bottom: 5px;
 }
-.milestone-content > h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+.milestone-content h1,
+.milestone-content h2,
+.milestone-content h3,
+.milestone-content h4,
+.milestone-content h5,
+.milestone-content h6 {
   margin-top: 0px;
 }
-.milestone-title {
+.milestones-title {
   padding-left: 15px;
   border-left: 1px dotted lightgrey;
   padding-bottom: 5px;
   padding-top: 5px;
 }
-.milestone-title > h1,
-h2,
-h3,
-h4 {
-  font-size: 16px;
+.milestones-title h1,
+.milestones-title h2,
+.milestones-title h3,
+.milestones-title h4 {
   margin-top: 5px;
   margin-bottom: 5px;
 }
@@ -64,7 +64,13 @@ h4 {
   color: #fff;
   border: 1px solid #46b8da;
 }
-.milestone-danger {
+.milestone-warning {
+  background-color: #f0ad4e;
+  color: #fff;
+  border: 1px solid #eea236;
+}
+.milestone-danger,
+.milestone-error {
   background-color: #d9534f;
   color: #fff;
   border: 1px solid #d43f3a;
