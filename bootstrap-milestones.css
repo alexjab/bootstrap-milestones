@@ -22,13 +22,21 @@
 .well:last-child {
   margin-bottom: 5px;
 }
+.milestone-content > h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0px;
+}
 .milestone-title {
   padding-left: 15px;
   border-left: 1px dotted lightgrey;
   padding-bottom: 5px;
   padding-top: 5px;
 }
-.milestone-title h1,
+.milestone-title > h1,
 h2,
 h3,
 h4 {
