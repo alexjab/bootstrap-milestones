@@ -1,0 +1,55 @@
+@import "../bootstrap/less/variables.less";
+
+.milestone {
+  list-style-type: none;
+}
+
+.milestone-icon {
+  margin-left: -14px;
+  margin-top: -14px;
+  float:left;
+  position: relative;
+  border-radius: 16px;
+  //background-color: #f3f3f3;
+  padding: 8px;
+  font-size: 12px;
+  //color: grey;
+}
+
+.milestone-content {
+  padding-left: 22.5px;
+  padding-top: 12.5px;
+  border-left: 1px dotted lightgrey;
+  border-top: 1px dotted lightgrey;
+  padding-bottom: 22.5px;
+}
+
+.milestone-default {
+  background-color: @gray-lighter;
+  color: @gray-light;
+  border: 1px solid darken(@gray-lighter, 5%);
+}
+
+.milestone-primary {
+  background-color: @brand-primary;
+  color: #fff;
+  border: 1px solid darken(@brand-primary, 5%);
+}
+
+.milestone-success {
+  background-color: @brand-success;
+  color: #fff;
+  border: 1px solid darken(@brand-success, 5%);
+}
+
+.milestone-info {
+  background-color: @brand-info;
+  color: #fff;
+  border: 1px solid darken(@brand-info, 5%);
+}
+
+.milestone-danger {
+  background-color: @brand-danger;
+  color: #fff;
+  border: 1px solid darken(@brand-danger, 5%);
+}
