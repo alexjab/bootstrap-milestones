@@ -68,7 +68,7 @@ You can prepend and/or append optional grey lines to delimitate your milestones 
 ```
 
 ### Examples
-You can find examples in the [examples] (https://github.com/alexjab/bootstrap-milestones/tree/master/examples) folder.
+You can find examples in the [examples](https://github.com/alexjab/bootstrap-milestones/tree/master/examples) folder.
 
 ### License
 MIT
