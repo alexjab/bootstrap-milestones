@@ -2,9 +2,6 @@
   list-style-type: none;
   padding-left: 14.5px;
 }
-.milestones > li:last-child > .milestone-content {
-  border-bottom: none;
-}
 .milestones.milestones-bordered-top {
   border-top: 2px solid lightgrey;
 }
@@ -12,32 +9,35 @@
   border-bottom: 2px solid lightgrey;
 }
 .milestones > li > .glyphicon {
-  margin-left: -13.5px;
-  margin-top: 10px;
+  margin-left: -39.5px;
+  margin-top: -5px;
   float: left;
   position: relative;
   border-radius: 14.5px;
   padding: 7.5px;
   font-size: 12px;
 }
-.milestone-content {
-  padding-left: 25px;
-  padding-top: 15px;
+.milestones > li {
   border-left: 1px dotted lightgrey;
   border-bottom: 1px dotted lightgrey;
+  padding-top: 15px;
   padding-bottom: 15px;
+  padding-left: 25px;
 }
-.milestone-content .list-group:last-child,
-.milestone-content .panel:last-child,
-.milestone-content .well:last-child {
+.milestones > li:last-child {
+  border-bottom: none;
+}
+.milestones > li .list-group:last-child,
+.milestones > li .panel:last-child,
+.milestones > li .well:last-child {
   margin-bottom: 5px;
 }
-.milestone-content h1,
-.milestone-content h2,
-.milestone-content h3,
-.milestone-content h4,
-.milestone-content h5,
-.milestone-content h6 {
+.milestones > li h1,
+.milestones > li h2,
+.milestones > li h3,
+.milestones > li h4,
+.milestones > li h5,
+.milestones > li h6 {
   margin-top: 0px;
   margin-bottom: 5px;
 }

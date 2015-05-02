@@ -15,10 +15,6 @@
   padding-left: @milestone-icon-width/2;
 }
 
-.milestones > li:last-child > .milestone-content {
-  border-bottom: none;
-}
-
 .milestones.milestones-bordered-top {
   border-top: 2px solid lightgrey;
 }
@@ -28,8 +24,8 @@
 }
 
 .milestones > li > .glyphicon {
-  margin-left: -(@milestone-icon-width - 2)/2;
-  margin-top: 10px;
+  margin-left: -(@milestone-offset-larger + (@milestone-icon-width - 2)/2 + 1);
+  margin-top: -@milestone-offset-smaller;
   float:left;
   position: relative;
   border-radius: @milestone-icon-width/2;
@@ -37,21 +33,25 @@
   font-size: @milestone-icon-font-size;
 }
 
-.milestone-content {
-  padding-left: @milestone-offset-larger;
-  padding-top: @milestone-offset;
+.milestones > li {
   border-left: 1px dotted lightgrey;
   border-bottom: 1px dotted lightgrey;
+  padding-top: @milestone-offset;
   padding-bottom: @milestone-offset;
+  padding-left: @milestone-offset-larger;
 }
 
-.milestone-content > {
+.milestones > li:last-child {
+  border-bottom: none;
+}
+
+.milestones > li > {
   .list-group:last-child, .panel:last-child, .well:last-child {
     margin-bottom: @milestone-offset-smaller;
   }
 }
 
-.milestone-content > {
+.milestones > li > {
   h1, h2, h3, h4, h5, h6 {
     margin-top: 0px;
     margin-bottom: @milestone-offset-smaller;
