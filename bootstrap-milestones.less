@@ -15,7 +15,19 @@
   padding-left: @milestone-icon-width/2;
 }
 
-.milestone-icon {
+.milestones > li:last-child > .milestone-content {
+  border-bottom: none;
+}
+
+.milestones.milestones-bordered-top {
+  border-top: 2px solid lightgrey;
+}
+
+.milestones.milestones-bordered-bottom {
+  border-bottom: 2px solid lightgrey;
+}
+
+.milestones > li > .glyphicon {
   margin-left: -(@milestone-icon-width - 2)/2;
   margin-top: 10px;
   float:left;

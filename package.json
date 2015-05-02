@@ -1,0 +1,22 @@
+{
+  "name": "bootstrap-milestones",
+  "version": "1.0.0",
+  "description": "A shiny bootstrap plugin for creating milestones",
+  "directories": {
+    "example": "examples"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexjab/bootstrap-milestones.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "milestones"
+  ],
+  "author": "alexjab <alexandre.jablon@gmail.com> (http://jablon.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexjab/bootstrap-milestones/issues"
+  },
+  "homepage": "https://github.com/alexjab/bootstrap-milestones"
+}
