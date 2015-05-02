@@ -59,7 +59,7 @@ You can customize the icon by using any [glyphicon](http://getbootstrap.com/comp
 Then add any text or you any miscellaneous bootstrap components.
 
 ### Additional options
-You can prepend and/or append optional grey lines to delimitate your milestones by adding the `milestones-bordered-top` or `milestones-bordered-bottom` classes to you list:
+As it is done on the picture, you can prepend and/or append optional grey lines to delimitate your milestone (at the beginning or end of the whole list) by adding the `milestones-bordered-top` or `milestones-bordered-bottom` classes to you list:
 
 ```
 <ul class="milestones milestones-bordered-top milestones-bordered-bottom">
