@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-milestones",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A shiny bootstrap plugin for creating milestones",
   "directories": {
     "example": "examples"
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/alexjab/bootstrap-milestones/issues"
   },
-  "homepage": "https://github.com/alexjab/bootstrap-milestones"
+  "homepage": "https://github.com/alexjab/bootstrap-milestones",
+  "dependencies": {
+    "bootstrap": "^3.3.4"
+  }
 }
