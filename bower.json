@@ -5,7 +5,7 @@
   "authors": [
     "alexjab <alexandre.jablon@gmail.com>"
   ],
-  "description": "A shiny bootstrap plugin for creating milestones",
+  "description": "A shiny bootstrap plugin to create milestone lists",
   "main": "dist/bootstrap-milestones.min.css",
   "keywords": [
     "bootstrap",

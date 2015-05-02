@@ -1,6 +1,6 @@
 # bootstrap-milestones.css
 
-A shiny bootstrap plugin for creating milestones. Shamelessly inspired by GitHub's Pull Request history.
+A shiny bootstrap plugin to create milestone lists. Shamelessly inspired by GitHub's Pull Request history.
 
 ![bootstrap-milestones](http://i.imgur.com/fKOhVUC.png)
 
