@@ -2,7 +2,7 @@
 
 A shiny bootstrap plugin for creating milestones. Shamelessly inspired by GitHub's Pull Request history.
 
-![bootstrap-milestones](http://i.imgur.com/muQEGef.png)
+![bootstrap-milestones](http://i.imgur.com/fKOhVUC.png)
 
 ##How to start
 ###Install bootstrap-milestones
@@ -66,6 +66,15 @@ As it is done on the picture, you can prepend and/or append optional grey lines 
 ...
 </ul>
 ```
+
+### Contribute
+To develop the project, you need to have bootstrap: go to the project's directory and run either `bower install` or `npm install` from within.
+
+To generate the css file, you need [less](http://lesscss.org/) which you can get by running `npm install -g less`.
+
+Then, to build the project, just run `make`.
+
+You can submit a PR if you want your changes to be integrated in a release.
 
 ### Examples
 You can find examples in the [examples](https://github.com/alexjab/bootstrap-milestones/tree/master/examples) folder.
