@@ -72,7 +72,7 @@ To develop the project, you need to have bootstrap: go to the project's director
 
 To generate the css file, you need [less](http://lesscss.org/) which you can get by running `npm install -g less`.
 
-Then, to build the project, just run `make`.
+Add your code, then, to build the project, just run `make`.
 
 You can submit a PR if you want your changes to be integrated in a release.
 
