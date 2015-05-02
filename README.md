@@ -59,7 +59,7 @@ You can customize the icon by using any [glyphicon](http://getbootstrap.com/comp
 Then add any text or you any miscellaneous bootstrap components.
 
 ### Additional options
-As it is done on the picture, you can prepend and/or append optional grey lines to delimitate your milestone (at the beginning or end of the whole list) by adding the `milestones-bordered-top` or `milestones-bordered-bottom` classes to you list:
+As it is done on the picture, you can prepend and/or append optional grey lines to delimitate your milestone (at the beginning or end of the whole list) by adding the `milestones-bordered-top` or `milestones-bordered-bottom` classes to your list:
 
 ```
 <ul class="milestones milestones-bordered-top milestones-bordered-bottom">
@@ -68,7 +68,7 @@ As it is done on the picture, you can prepend and/or append optional grey lines 
 ```
 
 ### Contribute
-To develop the project, you need to have bootstrap: go to the project's directory and run either `bower install` or `npm install` from within.
+To develop the project, you need to have bootstrap: go to the project's directory and run either `bower install` or `npm install` from within the directory.
 
 To generate the css file, you need [less](http://lesscss.org/) which you can get by running `npm install -g less`.
 
@@ -77,7 +77,7 @@ Add your code, then, to build the project, just run `make`.
 You can submit a PR if you want your changes to be integrated in a release.
 
 ### Examples
-You can find examples in the [examples](https://github.com/alexjab/bootstrap-milestones/tree/master/examples) folder.
+You can find examples in the [examples](https://github.com/alexjab/bootstrap-milestones/tree/master/examples) directory.
 
 ### License
 MIT
