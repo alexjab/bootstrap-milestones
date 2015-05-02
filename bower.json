@@ -1,11 +1,11 @@
 {
   "name": "bootstrap-milestones",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/alexjab/bootstrap-milestones",
   "authors": [
     "alexjab <alexandre.jablon@gmail.com>"
   ],
-  "description": "A shiny bootstrap plugin for creating milestones",
+  "description": "A shiny bootstrap plugin to create milestone lists",
   "main": "dist/bootstrap-milestones.min.css",
   "keywords": [
     "bootstrap",
