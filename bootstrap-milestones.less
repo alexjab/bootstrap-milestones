@@ -12,65 +12,72 @@
 @milestone-icon-width: @milestone-icon-padding * 2 + @milestone-icon-font-size + 2;
 
 .milestones {
+
+  // the <ul .milestones>
   list-style-type: none;
   padding-left: @milestone-icon-width/2;
-}
 
-.milestones.milestones-bordered-top {
-  border-top: 2px solid lightgrey;
-}
+  // the top and bottom borders
+  // of the list
+  &.milestones-bordered-top {
+    border-top: 2px solid lightgrey;
+  }
 
-.milestones.milestones-bordered-bottom {
-  border-bottom: 2px solid lightgrey;
-}
+  &.milestones-bordered-bottom {
+    border-bottom: 2px solid lightgrey;
+  }
 
-.milestones > li {
-  border-left: 1px dotted lightgrey;
-  border-bottom: 1px dotted lightgrey;
-  padding-top: @milestone-offset;
-  padding-bottom: @milestone-offset;
-  padding-left: @milestone-offset-larger;
-  min-height: 2*@milestone-offset-larger;
-}
+  // every <li> item
+  & > li {
+    // each milestone
+    border-left: 1px dotted lightgrey;
+    border-bottom: 1px dotted lightgrey;
+    padding-top: @milestone-offset;
+    padding-bottom: @milestone-offset;
+    padding-left: @milestone-offset-larger;
+    min-height: 2*@milestone-offset-larger;
 
-.milestones > li > {
-  .fa, .glyphicon {
-    margin-left: -(@milestone-offset-larger + (@milestone-icon-width - 2)/2 + 1);
-    margin-top: -@milestone-offset-smaller;
-    float:left;
-    position: relative;
-    border-radius: @milestone-icon-width/2;
-    padding: @milestone-icon-padding;
-    font-size: @milestone-icon-font-size;
-    min-width: @milestone-icon-width;
-    text-align: center;
+    // headings in list-items
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 0px;
+      margin-bottom: @milestone-offset-smaller;
+    }
+
+    // reduces the bottom margin for bs elements
+    // that add a margin beneath them
+    .list-group:last-child,
+    .panel:last-child,
+    .well:last-child,
+    .table:last-child,
+    .alert:last-child,
+    .progress:last-child,
+    pre:last-child
+    {
+      margin-bottom: @milestone-offset-smaller;
+    }
+
+    // removes the grey dotted line
+    // for the last milestone
+    &:last-child {
+      border-bottom: none;
+    }
+
+    // does the heavy lifting to the icons
+    & > .fa:first-child, .glyphicon:first-child {
+      margin-left: -(@milestone-offset-larger + (@milestone-icon-width - 2)/2 + 1);
+      margin-top: -@milestone-offset-smaller;
+      float:left;
+      position: relative;
+      border-radius: @milestone-icon-width/2;
+      padding: @milestone-icon-padding;
+      font-size: @milestone-icon-font-size;
+      min-width: @milestone-icon-width;
+      text-align: center;
+    }
   }
 }
 
-.milestones > li:last-child {
-  border-bottom: none;
-}
-
-.milestones > li > {
-  .list-group:last-child,
-  .panel:last-child,
-  .well:last-child,
-  .table:last-child,
-  .alert:last-child,
-  .progress:last-child,
-  pre:last-child
-  {
-    margin-bottom: @milestone-offset-smaller;
-  }
-}
-
-.milestones > li > {
-  h1, h2, h3, h4, h5, h6 {
-    margin-top: 0px;
-    margin-bottom: @milestone-offset-smaller;
-  }
-}
-
+// all the icon colors
 .milestone-default {
   background-color: @gray-lighter;
   color: @gray-light;
