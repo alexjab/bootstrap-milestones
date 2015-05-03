@@ -16,20 +16,14 @@
   padding-left: 25px;
   min-height: 50px;
 }
-.milestones > li .fa,
-.milestones > li .glyphicon {
-  margin-left: -39.5px;
-  margin-top: -5px;
-  float: left;
-  position: relative;
-  border-radius: 14.5px;
-  padding: 7.5px;
-  font-size: 12px;
-  min-width: 29px;
-  text-align: center;
-}
-.milestones > li:last-child {
-  border-bottom: none;
+.milestones > li h1,
+.milestones > li h2,
+.milestones > li h3,
+.milestones > li h4,
+.milestones > li h5,
+.milestones > li h6 {
+  margin-top: 0px;
+  margin-bottom: 5px;
 }
 .milestones > li .list-group:last-child,
 .milestones > li .panel:last-child,
@@ -40,14 +34,20 @@
 .milestones > li pre:last-child {
   margin-bottom: 5px;
 }
-.milestones > li h1,
-.milestones > li h2,
-.milestones > li h3,
-.milestones > li h4,
-.milestones > li h5,
-.milestones > li h6 {
-  margin-top: 0px;
-  margin-bottom: 5px;
+.milestones > li:last-child {
+  border-bottom: none;
+}
+.milestones > li > .fa:first-child,
+.milestones > li .glyphicon:first-child {
+  margin-left: -39.5px;
+  margin-top: -5px;
+  float: left;
+  position: relative;
+  border-radius: 14.5px;
+  padding: 7.5px;
+  font-size: 12px;
+  min-width: 29px;
+  text-align: center;
 }
 .milestone-default {
   background-color: #eeeeee;
