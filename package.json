@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-milestones",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A shiny bootstrap plugin to create milestone lists, written with {less}.",
   "directories": {
     "example": "examples"
