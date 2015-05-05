@@ -42,7 +42,7 @@
   border-bottom: none;
 }
 .milestones > li > .fa:first-child,
-.milestones > li .glyphicon:first-child {
+.milestones > li > .glyphicon:first-child {
   margin-left: -39.5px;
   margin-top: -5px;
   float: left;
