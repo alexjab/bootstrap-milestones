@@ -2,6 +2,10 @@
   list-style-type: none;
   padding-left: 14.5px;
 }
+.milestones.milestones-bordered {
+  border-bottom: 2px solid lightgrey;
+  border-top: 2px solid lightgrey;
+}
 .milestones.milestones-bordered-top {
   border-top: 2px solid lightgrey;
 }
@@ -38,7 +42,7 @@
   border-bottom: none;
 }
 .milestones > li > .fa:first-child,
-.milestones > li .glyphicon:first-child {
+.milestones > li > .glyphicon:first-child {
   margin-left: -39.5px;
   margin-top: -5px;
   float: left;
