@@ -2,6 +2,10 @@
   list-style-type: none;
   padding-left: 14.5px;
 }
+.milestones.milestones-bordered {
+  border-bottom: 2px solid lightgrey;
+  border-top: 2px solid lightgrey;
+}
 .milestones.milestones-bordered-top {
   border-top: 2px solid lightgrey;
 }

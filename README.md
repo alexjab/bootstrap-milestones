@@ -59,13 +59,15 @@ You can customize the icon by using any [glyphicon](http://getbootstrap.com/comp
 Then add any text or you any miscellaneous bootstrap components.
 
 ### Additional options
-As it is done on the picture, you can prepend and/or append optional grey lines to delimitate your milestone (at the beginning or end of the whole list) by adding the `milestones-bordered-top` or `milestones-bordered-bottom` classes to your list:
+As it is done on the picture, you can add optional grey lines to delimitate your milestones, at the beginning or end of the whole list. You can do so by adding the `milestones-bordered` class to your list:
 
 ```
-<ul class="milestones milestones-bordered-top milestones-bordered-bottom">
+<ul class="milestones milestones-bordered">
 ...
 </ul>
 ```
+
+If you wish to have a top or bottom border, you can use the classes `milestones-bordered-top` and `milestones-bordered-bottom`.
 
 ### Contribute
 To develop the project, you need to have bootstrap: go to the project's directory and run either `bower install` or `npm install` from within the directory.
