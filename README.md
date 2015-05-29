@@ -56,7 +56,7 @@ You can customize the icon by using any [glyphicon](http://getbootstrap.com/comp
 <i class="milestone-error ..."></i>
 ```
 
-Then add any text or you any miscellaneous bootstrap components.
+Then add any text or any miscellaneous bootstrap components.
 
 ### Additional options
 As it is done on the picture, you can add optional grey lines to delimitate your milestones, at the beginning or end of the whole list. You can do so by adding the `milestones-bordered` class to your list:
