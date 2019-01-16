@@ -42,6 +42,10 @@
   border-bottom: none;
 }
 .milestones > li > .fa:first-child,
+.milestones > li > .fas:first-child,
+.milestones > li > .far:first-child,
+.milestones > li > .fal:first-child,
+.milestones > li > .fab:first-child,
 .milestones > li > .glyphicon:first-child {
   margin-left: -39.5px;
   margin-top: -5px;

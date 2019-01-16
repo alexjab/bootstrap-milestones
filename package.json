@@ -28,6 +28,7 @@
     "less-plugin-clean-css": "1.5.1"
   },
   "scripts": {
-    "setup": "npm i && bower install && make"
+    "build": "make",
+    "setup": "npm i && bower install && npm run build"
   }
 }
