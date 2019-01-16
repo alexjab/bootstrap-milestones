@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-milestones",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "A shiny bootstrap plugin to create milestone lists, written with {less}.",
   "directories": {
     "example": "examples"
@@ -21,5 +21,14 @@
   "homepage": "https://github.com/alexjab/bootstrap-milestones",
   "dependencies": {
     "bootstrap": "^3.3.4"
+  },
+  "devDependencies": {
+    "bower": "1.8.4",
+    "less": "3.9.0",
+    "less-plugin-clean-css": "1.5.1"
+  },
+  "scripts": {
+    "build": "make",
+    "setup": "npm i && bower install && npm run build"
   }
 }
